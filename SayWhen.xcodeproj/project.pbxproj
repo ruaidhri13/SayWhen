@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		AD7017D026C80F0B0057B24B /* SayWhenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7017CF26C80F0B0057B24B /* SayWhenApp.swift */; };
-		AD7017D226C80F0B0057B24B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7017D126C80F0B0057B24B /* ContentView.swift */; };
 		AD7017D426C80F0C0057B24B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD7017D326C80F0C0057B24B /* Assets.xcassets */; };
 		AD7017D726C80F0C0057B24B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD7017D626C80F0C0057B24B /* Preview Assets.xcassets */; };
+		AD7017DF26C81A520057B24B /* CrestImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7017DE26C81A520057B24B /* CrestImage.swift */; };
+		AD7017E126C81B0F0057B24B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD7017E026C81B0F0057B24B /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AD7017CC26C80F0B0057B24B /* SayWhen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SayWhen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD7017CF26C80F0B0057B24B /* SayWhenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SayWhenApp.swift; sourceTree = "<group>"; };
-		AD7017D126C80F0B0057B24B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AD7017D326C80F0C0057B24B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD7017D626C80F0C0057B24B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AD7017D826C80F0C0057B24B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD7017DE26C81A520057B24B /* CrestImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrestImage.swift; sourceTree = "<group>"; };
+		AD7017E026C81B0F0057B24B /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +55,10 @@
 			isa = PBXGroup;
 			children = (
 				AD7017CF26C80F0B0057B24B /* SayWhenApp.swift */,
-				AD7017D126C80F0B0057B24B /* ContentView.swift */,
+				AD7017E026C81B0F0057B24B /* ContentView.swift */,
 				AD7017D326C80F0C0057B24B /* Assets.xcassets */,
 				AD7017D826C80F0C0057B24B /* Info.plist */,
+				AD7017DE26C81A520057B24B /* CrestImage.swift */,
 				AD7017D526C80F0C0057B24B /* Preview Content */,
 			);
 			path = SayWhen;
@@ -138,8 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD7017D226C80F0B0057B24B /* ContentView.swift in Sources */,
 				AD7017D026C80F0B0057B24B /* SayWhenApp.swift in Sources */,
+				AD7017DF26C81A520057B24B /* CrestImage.swift in Sources */,
+				AD7017E126C81B0F0057B24B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

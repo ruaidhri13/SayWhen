@@ -8,14 +8,48 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    let crestSize: CGFloat = 100
+    
     var body: some View {
-        Text("Hello, world!")
+        VStack {
+            Spacer()
+            
+            HStack {
+                Spacer()
+                CrestImage(image: Image("crest-manutd"))
+                
+                Spacer()
+                
+                Text("vs")
+                    .font(.title)
+                    .fontWeight(.heavy)
+                    .foregroundColor(.blue)
+                
+                Spacer()
+                
+                CrestImage(image: Image("crest-barcelona"))
+                Spacer()
+            }
             .padding()
+            
+            Spacer()
+            
+            VStack {
+                Text("Say When")
+                CrestImage(image: Image("dice"))
+                    .accentColor(.blue)
+            }
+            .padding()
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+            ContentView()
+        }
     }
 }
